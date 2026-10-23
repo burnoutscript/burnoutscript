@@ -87,12 +87,12 @@ projeto.
 
 <br/>
 
-<img src="https://streak-stats.demolab.com?user=burnoutscript&hide_border=true&locale=pt_BR&background=0D1117&ring=7C3AED&fire=A78BFA&currStreakNum=FFFFFF&sideNums=FFFFFF&currStreakLabel=A78BFA&sideLabels=C4B5FD&dates=8B949E&stroke=30363D" alt="Contribuições e sequência" />
+<img src="https://raw.githubusercontent.com/burnoutscript/burnoutscript/main/assets/contadores.svg" alt="Estrelas, contribuições e repositórios" />
 
 <br/><br/>
 
 <sub>visitas ao perfil</sub><br/>
-<img src="https://count.getloli.com/@burnoutscript?name=burnoutscript&theme=moebooru&padding=6&offset=0&align=top&scale=1&pixelated=1&darkmode=auto" alt="Visitas" />
+<img src="https://count.getloli.com/@burnoutscript?name=burnoutscript&theme=cat-girls-yay&padding=6&offset=0&align=top&scale=1&pixelated=1&darkmode=0" alt="Visitas" />
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:7c3aed,100:4f46e5&height=100&section=footer" width="100%" alt="" />
 
