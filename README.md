@@ -30,6 +30,8 @@ as decisões de segurança.
 - Integro LLMs em fluxos que o usuário paga para usar: geração de questões, correção de redação
   com rubrica, tutoria e sugestão de temas.
 - Meço custo e latência por requisição e escolho o modelo de cada plano com esses números.
+- Uso agentes de código (Claude Code, Cursor, OpenCode) no dia a dia e rodo modelos abertos
+  quantizados localmente, como o Qwen, para testar o que dá para fazer sem API paga.
 - Trato texto de usuário como entrada não confiável. O [promptguard](https://github.com/burnoutscript/promptguard)
   saiu disso, com precisão e recall medidos num corpus separado.
 - Protejo o que fica em volta do modelo: RLS no banco, chave privilegiada só no servidor e
