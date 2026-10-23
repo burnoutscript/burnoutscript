@@ -23,7 +23,8 @@ A Prumo gera simulados e trilhas a partir do objetivo do aluno, corrige redaçã
 cinco competências do ENEM e adapta o conteúdo ao cargo do concurso. Tem app web, iOS e Android
 nativos, duelos entre alunos e um painel interno que mede custo, tokens e latência de cada
 chamada de IA. O [estudo de caso](https://github.com/burnoutscript/prumo) conta a arquitetura e
-as decisões de segurança.
+as decisões de segurança. Os apps nativos, em SwiftUI e Jetpack Compose, têm um
+[estudo de caso próprio](https://github.com/burnoutscript/prumo-apps).
 
 ## O que eu faço com IA
 
