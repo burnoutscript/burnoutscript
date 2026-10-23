@@ -3,13 +3,13 @@
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:4f46e5,100:7c3aed&height=180&section=header&text=Victor%20Candido&fontSize=46&fontColor=ffffff&fontAlignY=36&desc=IA%20aplicada%20%C2%B7%20Seguran%C3%A7a%20de%20aplica%C3%A7%C3%B5es&descAlignY=58&descSize=18&animation=fadeIn" width="100%" alt="Victor Candido" />
 
 <a href="https://estudeprumo.com">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=620&lines=Cofundador+e+CEO+da+Prumo;LLMs+em+produ%C3%A7%C3%A3o+com+usu%C3%A1rios+pagantes;Supabase%2C+RLS+e+chave+que+n%C3%A3o+vaza;Python+%C2%B7+TypeScript+%C2%B7+Next.js" alt="Digitando" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=500&size=20&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=620&lines=Fundador+e+CEO+da+Prumo;LLMs+em+produ%C3%A7%C3%A3o+com+usu%C3%A1rios+pagantes;Supabase%2C+RLS+e+chave+que+n%C3%A3o+vaza;Python+%C2%B7+TypeScript+%C2%B7+Next.js" alt="Digitando" />
 </a>
 
 </div>
 
-Estudo Engenharia de Software em Brasília e sou cofundador da Prumo, uma plataforma de estudos
-com IA para ENEM e concursos que está em produção, com usuários e pagamentos reais. Trabalho no
+Estudo Engenharia de Software em Brasília e fundei a Prumo com o Marcos Alan, uma plataforma de
+estudos com IA para ENEM e concursos que está em produção, com usuários e pagamentos reais. Trabalho no
 produto e no código, do front à infraestrutura, e boa parte do que faço gira em torno de colocar
 modelos de linguagem em produção sem que eles virem um risco ou uma conta impagável.
 
@@ -66,10 +66,7 @@ projeto.
 
 <div align="center">
 
-<picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/burnoutscript/burnoutscript/output/snake-dark.svg" />
-  <img src="https://raw.githubusercontent.com/burnoutscript/burnoutscript/output/snake.svg" alt="Cobrinha comendo o gráfico de contribuições" />
-</picture>
+<img src="https://raw.githubusercontent.com/burnoutscript/burnoutscript/main/profile-3d-contrib/profile-night-rainbow.svg" width="100%" alt="Contribuições em 3D" />
 
 [estudeprumo.com](https://estudeprumo.com)
 
