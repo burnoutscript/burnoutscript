@@ -1,4 +1,4 @@
-### Victor Hugo Candido de Souza
+### Victor Candido
 
 Estudo Engenharia de Software em Brasília e sou cofundador da [Prumo](https://estudeprumo.com),
 uma plataforma de estudos com IA para ENEM e concursos que está em produção com usuários
@@ -24,4 +24,4 @@ GitHub Actions.
 
 #### Contato
 
-[LinkedIn](https://www.linkedin.com/in/vhcandidodesouza/) · [estudeprumo.com](https://estudeprumo.com)
+[estudeprumo.com](https://estudeprumo.com)
