@@ -13,9 +13,9 @@ projetos abaixo saíram desse trabalho.
 
 | Projeto | O que faz |
 |---|---|
-| [rls-guard](https://github.com/Kryip/rls-guard) | Audita as políticas de Row Level Security de um schema PostgreSQL/Supabase e sugere o SQL de correção |
-| [promptguard](https://github.com/Kryip/promptguard) | Detecta prompt injection antes do texto chegar ao LLM, com precisão e recall medidos num corpus próprio |
-| [loglens](https://github.com/Kryip/loglens) | Lê logs de nginx e sshd, aponta ataques e gera um resumo por IA sem mandar o log cru para fora |
+| [rls-guard](https://github.com/burnoutscript/rls-guard) | Audita as políticas de Row Level Security de um schema PostgreSQL/Supabase e sugere o SQL de correção |
+| [promptguard](https://github.com/burnoutscript/promptguard) | Detecta prompt injection antes do texto chegar ao LLM, com precisão e recall medidos num corpus próprio |
+| [loglens](https://github.com/burnoutscript/loglens) | Lê logs de nginx e sshd, aponta ataques e gera um resumo por IA sem mandar o log cru para fora |
 
 #### Stack
 
