@@ -53,6 +53,8 @@ banco e a mesma API, e nenhuma chave privilegiada vai dentro do app.
   quantizados localmente, como o Qwen.
 - Trato texto de usuário como entrada não confiável. O [promptguard](https://github.com/burnoutscript/promptguard)
   saiu disso, com precisão e recall medidos num corpus separado.
+- O agente instala pacote sozinho o tempo todo. Na Prumo o lockfile tem 660 pacotes e eu escolhi
+  uns 20. O [bouncer](https://github.com/burnoutscript/bouncer) analisa cada um antes de instalar.
 
 ## Stack
 
@@ -67,6 +69,7 @@ banco e a mesma API, e nenhuma chave privilegiada vai dentro do app.
 
 | Projeto | O que faz |
 |---|---|
+| [bouncer](https://github.com/burnoutscript/bouncer) | Analisa cada pacote que o agente de IA vai instalar (npm, PyPI, curl \| sh, servidores MCP, skills) e bloqueia malware antes de rodar. Também executa o pacote num sandbox com credenciais falsas para ver o que ele tenta enviar |
 | [rls-guard](https://github.com/burnoutscript/rls-guard) | Audita as políticas de Row Level Security de um schema PostgreSQL/Supabase e sugere o SQL de correção |
 | [supabase-hardening](https://github.com/burnoutscript/supabase-hardening) | Procura o que vaza num projeto Supabase além das tabelas: buckets públicos, funções expostas em `/rpc`, configuração de auth |
 | [promptguard](https://github.com/burnoutscript/promptguard) | Detecta prompt injection antes do texto chegar ao LLM |
@@ -74,14 +77,21 @@ banco e a mesma API, e nenhuma chave privilegiada vai dentro do app.
 | [loglens](https://github.com/burnoutscript/loglens) | Lê logs de nginx e sshd, aponta ataques e gera um resumo por IA sem mandar o log cru para fora |
 | [headers-audit](https://github.com/burnoutscript/headers-audit) | Dá nota de A+ a F para os headers de segurança e os cookies de um site |
 
+### Ferramentas para agentes de IA
+
+| Projeto | O que faz |
+|---|---|
+| [skillcheck](https://github.com/burnoutscript/skillcheck) | Linter para skills do Claude Code, Cursor e Codex: dá nota de 0 a 100 e aponta gatilho fraco, colisão entre skills, link quebrado e custo em tokens |
+| [sales-skills](https://github.com/burnoutscript/sales-skills) | 16 skills de vendas B2B para agentes: prospecção, discovery, demo, objeções, proposta, negociação e revisão de pipeline com MEDDPICC |
+
 ### Sistemas
 
 | Projeto | O que faz |
 |---|---|
 | [minikv](https://github.com/burnoutscript/minikv) | Banco chave-valor persistente no estilo Bitcask, com recuperação de falha, compactação e servidor compatível com o protocolo do Redis |
 
-Todos têm testes, CI rodando em Python 3.10 a 3.12 e um README que explica as decisões de
-projeto.
+Todos têm testes e CI (Python 3.10 a 3.12, ou Node 18 a 22 em Linux, macOS e Windows) e um
+README que explica as decisões de projeto.
 
 <div align="center">
 
